@@ -7,6 +7,15 @@
  * License v3.0 only", or the "Server Side Public License, v 1".
  */
 
+
+pluginManagement {
+  repositories {
+    mavenCentral()
+    gradlePluginPortal()
+    maven { url = uri("https://plugins.gradle.org/m2") }
+  }
+}
+
 plugins {
   id "com.gradle.develocity" version "4.2.2"
 }
